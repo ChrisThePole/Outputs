@@ -10,7 +10,11 @@ $(document).on("pagecreate","#pageone",function(){
 
 	$('#swipetext').on("swipeleft",function(){
     	$(this).css('color', 'green');
-  	});   
-
+  	}); 
+    
+    function random() {
+       var randomBoolean = return !Math.round(Math.random());
+        $("#randomValue").text(randomBoolean);
+    } 
 
 });

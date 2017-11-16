@@ -6,10 +6,10 @@
         id        = "mob.app.dev.lifecycle"
         version   = "1.0.0">
 
-    <name>Chris' App</name>
+    <name>Outputs</name>
 
     <description>
-        A sample application...
+        A sample application that uses outputs.
     </description>
 
     <author href="worcester.ac.uk" email="hewc1_16@uni.worc.ac.uk">
