@@ -12,9 +12,16 @@ $(document).on("pagecreate","#pageone",function(){
     	$(this).css('color', 'green');
   	}); 
     
-    function random() {
-       var randomBoolean = return !Math.round(Math.random());
-        $("#randomValue").text(randomBoolean);
-    } 
-
 });
+
+	function randomBoolean() {
+		
+		var randomValue = prompt ("Which output do you want?");
+		
+		if (randomValue == "1"){
+			navigator.notification.beep(1); 
+		} else if (randomValue == "2"){
+			navigator.notification.beep(2);
+		}
+		
+}
