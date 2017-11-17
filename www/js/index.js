@@ -22,6 +22,10 @@ $(document).on("pagecreate","#pageone",function(){
 			navigator.notification.beep(1); 
 		} else if (randomValue == "2"){
 			navigator.notification.beep(2);
+		} else if (randomValue == "3"){
+			navigator.vibrate(2000);
+		} else if (randomValue == "4"){
+			navigator.vibrate(4000);
 		}
 		
 }
